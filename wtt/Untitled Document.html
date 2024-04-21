@@ -1,0 +1,71 @@
+<html>
+<head>
+
+<title>form oluşturma</title>
+</head>
+
+<body>
+<form action="#" method="post" enctype="multipart/form-data">
+<table width="200px" cellpadding="2px">
+    <tr>
+    	<td>Adı</td>
+        <td>:</td>
+        <td><input type="text" name="ad"></td>
+    </tr>
+    <tr>
+    	<td>Soyadı</td>
+        <td>:</td>
+        <td><input type="text" name="soyad"></td>
+    </tr>
+    <tr>
+    	<td>Cinsiyet</td>
+        <td>:</td>
+        <td><input type="radio" name="cins" value="Bay">Erkek <input type="radio" name="cins" value="Bayan">Kadın</td>
+    </tr>
+    <tr>
+    	<td>e-Mail</td>
+        <td>:</td>
+        <td><input type="text" name="email"></td>
+    </tr>
+    <tr>
+    	<td>Telefon</td>
+        <td>:</td>
+        <td><input type="text" name="ceptel"></td>
+    </tr>
+    <tr>
+    	<td>Şehir</td>
+        <td>:</td>
+        <td>
+        <select name="il">
+        	<option>Seçiniz...</option>
+            <option>-----------</option>
+        	<option value="06">Ankara</option>
+            <option value="60">Tokat</option>
+            <option value="35">İzmir</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+    	<td>Mesajınız</td>
+        <td>:</td>
+        <td><textarea name="mesaj" cols="25" rows="5"></textarea></td>
+    </tr>
+    <tr>
+    	<td>Fotoğraf</td>
+        <td>:</td>
+        <td><input type="file" name="foto" /></td>
+    </tr>
+    <tr>
+    	<td></td>
+        <td></td>
+        <td><input type="checkbox" name="onay" />Yukarıda yer alan bilgilerin doğruluğunu kabul ediyorum.</td>
+    </tr>
+    <tr>
+    	<td><input type="hidden" name="gizli" value="WTT dersi"></td>
+        <td></td>
+        <td><input type="submit" value="Mesajı İlet"><input type="reset" value="Temizle"></td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

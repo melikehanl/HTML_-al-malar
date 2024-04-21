@@ -1,0 +1,68 @@
+/*Melike HANLI-222703016*/
+/* HTML belgesi içerisindeki css kodları*/
+<html>
+<head>
+    <title>CSS ornek</title>
+    <style>
+        /* Class Tanımlama */
+        .my-class {
+            color: red;
+            font-size: 16px;
+        }
+
+        /* ID Tanımlama */
+        #my-id {
+            background-color: blue;
+            padding: 10px;
+        }
+
+        /* Tag Tanımlama */
+        p {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        /* Compound Tanımlama */
+        .container p.highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p class="my-class">Bu bir paragraf ornegidir.</p>
+        <p id="my-id">Bu da baska bir paragraf ornegidir.</p>
+        <p class="highlight">Bu bir diger paragraf ornegidir.</p>
+        <p class="my-class highlight">Ve son bir paragraf ornegidir.</p>
+    </div>
+</body>
+</html>
+
+
+
+/* sadece css tanımlarını içerir. HTML belgesi olmadan*/
+/* Class Tanımlama */
+.my-class {
+    color: red;
+    font-size: 16px;
+}
+
+/* ID Tanımlama */
+#my-id {
+    background-color: blue;
+    padding: 10px;
+}
+
+/* Tag Tanımlama */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Compound Tanımlama */
+.container p.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+

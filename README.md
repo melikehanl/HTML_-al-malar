@@ -1,2 +1,2 @@
-# HTML_-al-malar
+# HTML_-Calismalarim
 Okul boyunca öğrendiğim ve yaptığım HTML çalışmalarım

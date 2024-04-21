@@ -1,0 +1,91 @@
+<html 
+<head>
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div class="icerik" style="background:blue;">Bu bölümde div etiketleri ile yapılacak bir çalışma...</div>
+<div>HTML etiketleri günümüzde artık HTML5 ile daha aktif ve dinamik bir yapı gibi kullanabilmemizi sağlıyor...</div>
+<div class="icerik2" style="background:orange;">Div yapısı ve kullanımı bu şekildedir...</div>
+
+</body>
+</html>
+
+
+
+
+
+<html>
+	<head>
+<title>Untitled Document</title>
+
+</head>
+
+<body>
+<div>
+    <div style="background:#F00">1.Sırada yer alan div.</div>
+    <div class="kutu">2.Sırada yer alan div...</div>
+</div>
+
+
+</body></html>
+
+
+
+
+<html>
+	<head>
+<title>Untitled Document</title>
+
+</head>
+
+<body>
+<div class="kutu" style="background:#F00;">Bugün ve yarın olmak üzere hava şartları oldukça sert bir yağış geleceği görünüyor...</div>
+<br>
+<div class="kutu">Bugün ve yarın olmak üzere hava şartları oldukça sert bir yağış geleceği görünüyor...</div>
+<br>
+<div><p>Bayram dahil olmak üzere <span style="color:#F00">hava şartları</span> oldukça sert bir yağış geleceği görünüyor...</p></div>
+
+
+
+
+</body></html>
+
+
+(SINAV ÖRNEĞİ)
+<html><head>
+	</head>
+	<body>1.Sorunun cevabı
+<a href="http://gop.edu.tr/">Tıklat...</a>
+
+2.Sorunun cevabı
+<b>PazarMYO</b>
+
+3.Sorunun cevabı
+<ol type="a">
+	<li>Ankara</li>
+    <li>Tokat</li>
+</ol>
+
+
+
+</body></html>
+
+
+
+<html>
+	<head>
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p>Başlıklar</p>
+Ansi C
+C++
+C#
+PHP
+<!--üst dizindeki dosyaya yönlendirme-->
+<a href="file:///C:/Users/User/AppData/Local/Temp/Rar$EXa7536.17974/wtt2223bahar/7.html">7 numaralı sayfa</a>
+
+
+</body></html>
